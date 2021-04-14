@@ -1,0 +1,44 @@
+.container {
+  height: calc(100vh - 70px);
+}
+
+.bottom-nav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    svg {
+      height: 30px;
+      width: 40px;
+
+      #Shape {
+        fill: var(--primary-color-light);
+      }
+    }
+
+    p {
+      display: none;
+    }
+
+    &.active {
+      svg #Shape {
+        fill: var(--secondary-color);
+      }
+
+      p {
+        display: block;
+        color: var(--secondary-color);
+      }
+    }
+  }
+}
