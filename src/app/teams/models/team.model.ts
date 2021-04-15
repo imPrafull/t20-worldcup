@@ -3,9 +3,5 @@ export interface Team {
   name: string,
   rank: number,
   backgroundImg: string,
-  squad: {
-    id: number,
-    name: string,
-    img: string
-  }
+  squad: any[]
 }

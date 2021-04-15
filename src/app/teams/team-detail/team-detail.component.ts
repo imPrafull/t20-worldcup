@@ -25,4 +25,8 @@ export class TeamDetailComponent implements OnInit {
     });
   }
 
+  goToPlayerDetail(id: number) {
+    this.router.navigate(['/', 'player', id]);
+  }
+
 }

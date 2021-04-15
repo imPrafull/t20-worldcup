@@ -3,11 +3,22 @@
     <img [src]="team?.backgroundImg" alt="">
   </div>
   <div class="team-details">
-    <h3>{{ team.name }}</h3>
+    <h3>{{ team?.name }}</h3>
     <div class="rank">
-      <h2>{{ team.rank }}</h2>
+      <p>T20</p>
+      <h2>{{ team?.rank }}</h2>
     </div>
   </div>
   <div class="increase-height"></div>
   <h4>Squad</h4>
+  <div class="squad">
+    <div class="player" *ngFor="let player of team?.squad" (click)="goToPlayerDetail(player.id)">
+      <div class="player-img">
+        <img [src]="player.img" alt="player.name">
+      </div>
+      <p>{{ player.name }}</p>
+      <p *ngIf="player.isCaptain" class="captain">C</p>
+    </div>
+  </div>
+  <div class="increase-height"></div>
 </div>

@@ -1,6 +1,6 @@
 <div class="container">
   <h3>Players</h3>
-  <div class="player" *ngFor="let player of players">
+  <div class="player" *ngFor="let player of players" (click)="goToPlayerDetail(player.id)">
     <div class="avatar">
       <img [src]="player.avatar" alt="player.name">
     </div>

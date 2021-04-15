@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="player-img">
+    <div class="player-name">
+      <p>{{ player?.fname }}</p>
+      <p>{{ player?.lname }}</p>
+    </div>
+    <img [src]="player?.img" alt="player?.name">
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <p>M</p>
+      <h4>{{ player?.stats.batting.matches }}</h4>
+    </div>
+    <div class="stat">
+      <p>I</p>
+      <h4>{{ player?.stats.batting.innings }}</h4>
+    </div>
+    <div class="stat">
+      <p>Not Out</p>
+      <h4>{{ player?.stats.batting.notOut }}</h4>
+    </div>
+    <div class="stat">
+      <p>R</p>
+      <h4>{{ player?.stats.batting.runs }}</h4>
+    </div>
+    <div class="stat">
+      <p>HS</p>
+      <h4>{{ player?.stats.batting.highscore }}</h4>
+    </div>
+    <div class="stat">
+      <p>Avg</p>
+      <h4>{{ player?.stats.batting.average }}</h4>
+    </div>
+    <div class="stat">
+      <p>SR</p>
+      <h4>{{ player?.stats.batting.strikeRate }}</h4>
+    </div>
+    <div class="stat">
+      <p>50s</p>
+      <h4>{{ player?.stats.batting.halfCenturies }}</h4>
+    </div>
+  </div>
+  
+  <div class="details">
+    <h3>About</h3>
+    <p>{{ player?.about }}</p>
+  </div>
+
+  <div class="increase-height"></div>
+</div>

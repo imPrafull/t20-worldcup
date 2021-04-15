@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "name": "Virat Kohli",
+  "fname": "Virat",
+  "lname": "Kohli",
+  "role": "Batsman",
+  "dob": "5 November 1988",
+  "style": "Right-Handed Batsman",
+  "age": 32,
+  "img": "assets/players/vkohli-img.png",
+  "about": "Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world. He plays for Delhi in domestic cricket and for Royal Challengers Bangalore in the Indian Premier League (IPL) as captain of the franchise since 2013.",
+  "stats": {
+    "batting": {
+      "matches": 89,
+      "innings": 84,
+      "notOut": 24,
+      "runs": 3159,
+      "highscore": 94,
+      "average": 52.65,
+      "strikeRate": 139.04,
+      "centuries": 0,
+      "halfCenturies": 28
+    },
+    "bowing": {
+      "matches": 89,
+      "innings": 12,
+      "wickets": 4,
+      "bestFigures": "1/13",
+      "economy": 8.14,
+      "average": 49.5,
+      "strikeRate": 36.5,
+      "fiveWicket": 0
+    }
+  }
+}

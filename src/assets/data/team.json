@@ -7,32 +7,38 @@
     {
       "id": 1,
       "name": "V Kohli",
-      "img": "assets/players/vkohli-img.png"
+      "img": "assets/players/vkohli-img.png",
+      "isCaptain": true
     },
     {
       "id": 2,
       "name": "V Kohli",
-      "img": "assets/players/vkohli-img.png"
+      "img": "assets/players/vkohli-img.png",
+      "isCaptain": false
     },
     {
       "id": 3,
       "name": "V Kohli",
-      "img": "assets/players/vkohli-img.png"
+      "img": "assets/players/vkohli-img.png",
+      "isCaptain": false
     },
     {
       "id": 4,
       "name": "V Kohli",
-      "img": "assets/players/vkohli-img.png"
+      "img": "assets/players/vkohli-img.png",
+      "isCaptain": false
     },
     {
       "id": 5,
       "name": "V Kohli",
-      "img": "assets/players/vkohli-img.png"
+      "img": "assets/players/vkohli-img.png",
+      "isCaptain": false
     },
     {
       "id": 6,
       "name": "V Kohli",
-      "img": "assets/players/vkohli-img.png"
+      "img": "assets/players/vkohli-img.png",
+      "isCaptain": false
     }
   ]
 }
