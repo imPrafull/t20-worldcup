@@ -1,6 +1,6 @@
 # T20Worldcup
 
-Angular project to track the T20 World Cup 2021. https://t20-worldcup.netlify.app/home
+Angular project to track the T20 World Cup 2021. https://t20-worldcup.netlify.app
 
 ## Development server
 
