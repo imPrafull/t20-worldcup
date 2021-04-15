@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h3 {
+  color: var(--text-color);
+  font-size: 1.5em;
+  margin: 1em auto 0 8%;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+.team-list {
+  margin-top: 1.5em;
+  display: grid;
+  width: 86%;
+  grid-template-columns: repeat(2, 46%);
+  gap: 1.5em 8%;
+}
+
+.team {
+  height: calc(40vw / 1.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:
+    radial-gradient(
+      circle at bottom right,
+      var(--color2),
+      var(--color1)
+    );
+  border-radius: .8em;
+
+  img {
+    height: 70%;
+    max-height: 75px;
+  }
+}

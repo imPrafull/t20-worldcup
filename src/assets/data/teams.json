@@ -1,0 +1,25 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "India",
+      "logo": "assets/team-logos/ind.png",
+      "color1": "#1100BB",
+      "color2": "#2351FA"
+    },
+    {
+      "id": 2,
+      "name": "India",
+      "logo": "assets/team-logos/ind.png",
+      "color1": "#1100BB",
+      "color2": "#2351FA"
+    },
+    {
+      "id": 3,
+      "name": "India",
+      "logo": "assets/team-logos/ind.png",
+      "color1": "#1100BB",
+      "color2": "#2351FA"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+.container {
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 1em;
+}
+
+h3 {
+  color: var(--text-color);
+  font-size: 1.5em;
+  margin: 1em auto;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+.player {
+  display: grid;
+  grid-template-columns: 60px auto 60px;
+  column-gap: 1em;
+  align-items: center;
+  background-color: var(--primary-color-dark);
+  border-radius: .8em;
+  margin-bottom: 1em;
+  height: 80px;
+
+  .avatar {
+    margin-left: .5em;
+    width: 55px;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .flag {
+    width: 35px;
+    height: 24px;
+    margin-right: 1em;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

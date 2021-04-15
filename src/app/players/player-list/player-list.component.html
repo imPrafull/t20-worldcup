@@ -1,0 +1,15 @@
+<div class="container">
+  <h3>Players</h3>
+  <div class="player" *ngFor="let player of players">
+    <div class="avatar">
+      <img [src]="player.avatar" alt="player.name">
+    </div>
+    <div class="player-info">
+      <p>{{ player.name }}</p>
+      <p>{{ player.age }}</p>
+    </div>
+    <div class="flag">
+      <img [src]="player.flag" alt="">
+    </div>
+  </div>
+</div>

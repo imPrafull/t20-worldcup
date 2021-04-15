@@ -1,0 +1,8 @@
+<h3>Teams</h3>
+<div class="container">
+  <div class="team-list">
+    <div class="team" *ngFor="let team of teams" [style.--color1]="team.color1" [style.--color2]="team.color2" (click)="goToTeamDetails(team.id)">
+      <img [src]="team.logo" alt="">
+    </div>
+  </div>
+</div>

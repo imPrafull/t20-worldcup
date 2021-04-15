@@ -1,0 +1,17 @@
+.container {
+  min-height: 100vh;
+  height: calc(100% + 85px);
+  width: 100%;
+  background-image:
+    radial-gradient(
+      circle at top left,
+      var(--primary-color),
+      #323689 72%,
+      #C43C73 97%,
+      var(--secondary-color)
+    );
+
+  .increase-height {
+    height: 85px;
+  }
+}

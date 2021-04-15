@@ -1,0 +1,25 @@
+<div class="container">
+  <h3>Matches</h3>
+  <div class="tab-bar">
+    <div *ngFor="let type of matchTypes" [class.active]="type.isSelected" class="tab-item" (click)="filterList(type.id)"><p>{{ type.name }}</p></div>
+  </div>
+  <div class="match-list">
+    <div class="match-item" *ngFor="let match of filteredMatches">
+      <div class="team">
+        <div class="team-name">
+          <img [src]="match.t1.flag" alt="">
+          <p>{{ match.t1.name}}</p>
+        </div>
+        <p class="score">{{ match.t1.score }}</p>
+      </div>
+      <div class="team">
+        <div class="team-name">
+          <img [src]="match.t2.flag" alt="">
+          <p>{{ match.t2.name}}</p>
+        </div>
+        <p class="score">{{ match.t2.score }}</p>
+      </div>
+      <p class="bottom-text">{{ match.typeId === 2 ? match.time : match.result }}</p>
+    </div>
+  </div>
+</div>

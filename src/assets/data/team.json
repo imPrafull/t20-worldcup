@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "name": "India",
+  "rank": 1,
+  "backgroundImg": "assets/players/ind.jpg",
+  "squad": [
+    {
+      "id": 1,
+      "name": "V Kohli",
+      "img": "assets/players/vkohli-img.png"
+    },
+    {
+      "id": 2,
+      "name": "V Kohli",
+      "img": "assets/players/vkohli-img.png"
+    },
+    {
+      "id": 3,
+      "name": "V Kohli",
+      "img": "assets/players/vkohli-img.png"
+    },
+    {
+      "id": 4,
+      "name": "V Kohli",
+      "img": "assets/players/vkohli-img.png"
+    },
+    {
+      "id": 5,
+      "name": "V Kohli",
+      "img": "assets/players/vkohli-img.png"
+    },
+    {
+      "id": 6,
+      "name": "V Kohli",
+      "img": "assets/players/vkohli-img.png"
+    }
+  ]
+}

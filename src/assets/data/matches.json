@@ -1,0 +1,184 @@
+{
+  "matches": [
+    {
+      "id": 1,
+      "typeId": 3,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": "320/6"
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": "308(48.2/50 ov)"
+      },
+      "time": "Sun, 22 Jul 2021 05:22 IST",
+      "result": "India won by 12 runs"
+    },
+    {
+      "id": 2,
+      "typeId": 3,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": "320/6"
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": "308(48.2/50 ov)"
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": "India won by 12 runs"
+    },
+    {
+      "id": 3,
+      "typeId": 1,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": "320/6"
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": "308/7(48.2/50 ov)"
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": "Australia need 12 runs in 10 balls to win"
+    },
+    {
+      "id": 4,
+      "typeId": 2,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": ""
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": ""
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": ""
+    },
+    {
+      "id": 5,
+      "typeId": 3,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": "320/6"
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": "308(48.2/50 ov)"
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": "India won by 12 runs"
+    },
+    {
+      "id": 6,
+      "typeId": 2,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": ""
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": ""
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": ""
+    },
+    {
+      "id": 7,
+      "typeId": 3,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": "320/6"
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": "308(48.2/50 ov)"
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": "India won by 12 runs"
+    },
+    {
+      "id": 8,
+      "typeId": 3,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": "320/6"
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": "308(48.2/50 ov)"
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": "India won by 12 runs"
+    },
+    {
+      "id": 9,
+      "typeId": 2,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": ""
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": ""
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": ""
+    },
+    {
+      "id": 10,
+      "typeId": 2,
+      "t1": {
+        "name": "india",
+        "short": "IND",
+        "flag": "assets/flags/ind.png",
+        "score": ""
+      },
+      "t2": {
+        "name": "australia",
+        "short": "AUS",
+        "flag": "assets/flags/aus.png",
+        "score": ""
+      },
+      "time": "Sun, 22 July, 2021 - 13:30 IST",
+      "result": ""
+    }
+  ]
+}

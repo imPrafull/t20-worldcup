@@ -1,0 +1,46 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "V Kohli",
+      "age": 32,
+      "flag": "assets/flags/ind.png",
+      "avatar": "assets/players/vkohli-avatar.png"
+    },
+    {
+      "id": 2,
+      "name": "V Kohli",
+      "age": 32,
+      "flag": "assets/flags/ind.png",
+      "avatar": "assets/players/vkohli-avatar.png"
+    },
+    {
+      "id": 3,
+      "name": "V Kohli",
+      "age": 32,
+      "flag": "assets/flags/ind.png",
+      "avatar": "assets/players/vkohli-avatar.png"
+    },
+    {
+      "id": 4,
+      "name": "V Kohli",
+      "age": 32,
+      "flag": "assets/flags/ind.png",
+      "avatar": "assets/players/vkohli-avatar.png"
+    },
+    {
+      "id": 5,
+      "name": "V Kohli",
+      "age": 32,
+      "flag": "assets/flags/ind.png",
+      "avatar": "assets/players/vkohli-avatar.png"
+    },
+    {
+      "id": 6,
+      "name": "V Kohli",
+      "age": 32,
+      "flag": "assets/flags/ind.png",
+      "avatar": "assets/players/vkohli-avatar.png"
+    }
+  ]
+}

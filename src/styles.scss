@@ -6,6 +6,7 @@
   --secondary-color: #FD2D5B;
   --primary-color-light: #4D50C6;
   --primary-color-dark: #151757;
+  --secondary-color-light: #ff6485;
   --text-color: #ffffff;
   --text-color-light: #AEAFDC;
 }
@@ -18,6 +19,7 @@
 
 body, html {
   font-family: 'Roboto', sans-serif;
+  font-size: 100%;
   background-image:
     radial-gradient(
       circle at top left,
@@ -26,4 +28,8 @@ body, html {
       #C43C73 97%,
       var(--secondary-color)
     );
+}
+
+p, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
 }
